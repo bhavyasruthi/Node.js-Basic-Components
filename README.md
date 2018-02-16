@@ -52,3 +52,8 @@ Node uses two core modules for managing module dependencies:
 - app.js :In this file, we imported data from data.js file using require(). 
    ```var myData = module.require("<file you need to import>");```
    
+### Project Folder : callback
+Node.js application, then callbacks are its veins. They enable a balanced, non-blocking flow of asynchronous control across modules and applications. But for callbacks to work at scale you’ll needed a common, reliable protocol. The “error-first” callback (also known as an “errorback”, “errback”, or “node-style callback”) was introduced to solve this problem, and has since become the standard for Node.js callbacks.There’s really only two rules for defining an error-first callback:
+- The first argument of the callback is reserved for an error object. If an error occurred, it will be returned by the first err argument.
+- The second argument of the callback is reserved for any successful response data. If no error occurred, err will be set to null and any successful data will be returned in the second argument.
+- app.js : File we used callback function to serve order and place order asynchronously so that desired output is correct.
