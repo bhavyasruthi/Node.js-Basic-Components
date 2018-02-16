@@ -41,3 +41,4 @@ Read files - fs.readFile() method is used to read files on your computer. Syntax
 
 -Rename files - To rename a file with the File System module,  use the fs.rename() method. Syntax: ```fs.unlink('<old file name>',  '<old file name>', <callback>);```
 
+- app_file.js : We used writeFileSync(), writeFile() to craete and write data to 2 files 'data.txt' and 'fs.tmp'
