@@ -28,16 +28,16 @@ var fs = require('fs');
 ```
 Common use for the File System module:
 Read files - fs.readFile() method is used to read files on your computer. Syntax: ```fs.readFile('<file name>', <callback>);```
-Create files - File System methods for creating new files:
+-Create files - File System methods for creating new files:
 - fs.appendFile() : The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created. Syntax : ```fs.appendFile('<file name>', <callback>);```
 - fs.open() : fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created. Syntax : ```fs.open('<file name>',' <mode>', <callback>);```
 - fs.writeFile() : fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created. Syntax :```fs.readFile('<file name>', <data>, <callback>);```
 
-Update files - The File System methods for updating files:
+-Update files - The File System methods for updating files:
 - fs.appendFile() : This method appends the specified content at the end of the specified file.
 - fs.writeFile() : This method replaces the specified file and content.
 
-Delete files -To delete a file with the File System module,  use the fs.unlink() method. Syntax: ```fs.unlink('<file name>', <callback>);```
+-Delete files -To delete a file with the File System module,  use the fs.unlink() method. Syntax: ```fs.unlink('<file name>', <callback>);```
 
-Rename files - To rename a file with the File System module,  use the fs.rename() method. Syntax: ```fs.unlink('<old file name>',  '<old file name>', <callback>);```
+-Rename files - To rename a file with the File System module,  use the fs.rename() method. Syntax: ```fs.unlink('<old file name>',  '<old file name>', <callback>);```
 
