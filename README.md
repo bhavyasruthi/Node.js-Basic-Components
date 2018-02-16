@@ -27,7 +27,7 @@ This project uses fs module. File system module allow you to work with the file 
 var fs = require('fs');
 ```
 Common use for the File System module:
-Read files - fs.readFile() method is used to read files on your computer. Syntax: fs.readFile('<file name>', <callback>);
+Read files - fs.readFile() method is used to read files on your computer. Syntax: ```fs.readFile('<file name>', <callback>);```
 Create files - File System methods for creating new files:
 - fs.appendFile() : The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created. Syntax : fs.appendFile('<file name>', <callback>);
 - fs.open() : fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created. Syntax : fs.open('<file name>',' <mode>', <callback>);
